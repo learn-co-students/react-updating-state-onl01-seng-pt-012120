@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ClickityClick from './components/ClickityClick';
+import LightSwtich from './components/LightSwtich';
 
 ReactDOM.render(
   <div>
-    Mount Components Here
+    <ClickityClick />
+    <LightSwtich />
   </div>,
   document.getElementById('root')
 );
